@@ -11,6 +11,13 @@ The app will look through a persons playlist. Analyse the songs. When the person
 4. The app will then look for songs that match this current song by looking for feature that make them mix well together e.g similar BMP and genre etc
 5. The app will suggest a list of songs to the user to play next in their set.
 
+### What I would be matching on...
+- Key
+- BPM
+- Genre 
+- Camlot Scale 
+- What else???
+
 ### Future work
 - This could be used to build entire sets
 - Would it be useful for DJ's 
