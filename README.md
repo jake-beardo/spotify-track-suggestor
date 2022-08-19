@@ -1,4 +1,4 @@
-## Spotify DJ Analysis
+# Spotify DJ Analysis
 
 ### The Idea
 The app will look through a persons playlist. Analyses the songs. When the person chooses a song they want to play the app will find songs that are easy to mix with that song from their chosen playlists. 
