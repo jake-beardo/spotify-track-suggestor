@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+# Spotify DJ Analysis
 
-You can use the [editor on GitHub](https://github.com/jake-beardo/spotify-track-suggestor/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### The Idea
+The app will look through a persons playlist. Analyses the songs. When the person chooses a song they want to play the app will find songs that are easy to mix with that song from their chosen playlists. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### How it works
 
-### Markdown
+1. User selects some playlists that they want to play music from 
+2. The app will analyse the playlists and extract useful information about the songs E.G. (Genre, Key, BPM... Any other suggestions welcome here)
+3. The user will then select a song they might be currently playing or want to play beforehand.
+4. The app will then look for songs that match this current song by looking for feature that make them mix well together e.g similar BMP and genre etc
+5. The app will suggest a list of songs to the user to play next in their set.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Future work
+- This could be used to build entire sets
+- Would it be useful for DJ's 
+- Is there anything already out there?
+- Any suggestions on what to suggest if the user wants to change BPM or switch to a different Genre.
+- Would this require soundcloud or is spotify alone good enough.
+- Would only amateur DJ's want to use this?
 
-```markdown
-Syntax highlighted code block
+### Good Resources 
+- API Documentation: https://developer.spotify.com/documentation/web-api/reference/#/operations/get-several-audio-features
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jake-beardo/spotify-track-suggestor/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
